@@ -1,0 +1,44 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.Caja-Main {
+    padding-top: 5%;
+    height: 80%;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Caja-Main > .Titulo-Main {
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 450px;
+    text-align: center;
+}
+
+.Caja-Main-Usuarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.Caja-Main-Usuarios form {
+    height: auto;
+    width: 100%s;
+    max-width: 1200px;
+    min-width: 300px;
+}
+
+.Caja-Main-Usuarios form > input, .Caja-Main-Usuarios .main-user-dorpdown > .dropdown-trigger {
+    margin-left: 20px;
+}
+
+.Caja-Main-Usuarios > code {
+    margin-top: 15px;
+}
